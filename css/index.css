@@ -88,8 +88,9 @@ p {
     width: 80%;
     font-size: 24px;
 }
-.navbar nav a{
+nav a{
     text-decoration: none;
+    color:black;
 }
 
 .container img{
@@ -145,7 +146,7 @@ h2{
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 180px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -185,4 +186,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes .box:first-child{
+    background-color: teal;
+}
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
 }
